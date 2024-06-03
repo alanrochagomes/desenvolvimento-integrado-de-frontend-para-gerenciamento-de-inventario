@@ -1,0 +1,17 @@
+.card {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 300px;
+  transition: all 0.15s ease-out;
+}
+
+.card:hover {
+  translate: -3px -3px;
+  box-shadow: 3px 3px black;
+}
+
+.card h1 {
+  font-size: 32px;
+}
