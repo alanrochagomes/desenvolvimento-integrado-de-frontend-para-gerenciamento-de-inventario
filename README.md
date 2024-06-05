@@ -1,4 +1,4 @@
-# Desenvolvimento Integrado de Gerenciamento de Inventario
+# Desenvolvimento Integrado de Frontend para Gerenciamento de Inventario
 
 Esse Projeto é sobre um desafio de desenvolver uma solução FullStack que consiste em uma API robusta e uma página web interativa para gerenciar inventário de produtos de tecnologia. Este sistema deve ser capaz de realizar operações de CRUD e oferecer uma experiência de usuário fluida e intuitiva.
 
