@@ -3,18 +3,15 @@ import "./App.css";
 import Card from "./components/Card/Card";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
+import { Api } from "./api/api";
 
 function App() {
   const [pricelists, setPricelists] = useState([]);
 
   async function fetchData() {
-    const apiUrl =
-      "https://desenvolvimento-integrado-de-backend-gtnt.onrender.com/inventario";
+    const apiUrl = Api.inventario.readAll()
 
-    const response = await fetch(apiUrl).catch(function (error) {
-      console.error('Erro ao chamr endpoint /inventario', error)
-      toast.error('Erro ao carregar lista do Pricelists.')
-    })
+    const response = await Api.buildApiGetRequest(apiUrl)
 
     if (response.ok) {
      const data = await response.json();
