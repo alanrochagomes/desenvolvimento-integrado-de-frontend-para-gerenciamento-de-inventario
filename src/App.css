@@ -1,3 +1,7 @@
+body {
+  font-family: Verdana;
+}
+
 .cards {
   display: flex;
   flex-direction: row;
@@ -5,4 +9,68 @@
   gap: 16px;
   justify-content: center;
   margin-top: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+form {
+  background-color: #0094B5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+button[type='submit'] {
+  background-color: #28a745;
+  color: #fff;
+}
+
+button[type='reset'] {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.9;
 }
