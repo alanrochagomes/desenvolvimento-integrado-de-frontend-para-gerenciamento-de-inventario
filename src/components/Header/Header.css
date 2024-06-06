@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0094B5;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: #DEDC00;
+    text-decoration: none;
+    font-family: Verdana;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
