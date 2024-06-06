@@ -4,8 +4,9 @@ Esse Projeto é sobre um desafio de desenvolver uma solução FullStack que cons
 
 Criando uma interface de usuário com ReactJS que interaja com a API, exibindo e manipulando os dados do inventário.
 
-A página se comunica de forma eficiente com a API, proporcionando um sistema integrado. 
+A página se comunica de forma eficiente com a API, proporcionando um sistema integrado:
 https://github.com/alanrochagomes/desenvolvimento-integrado-de-backend-para-gerenciamento-de-inventario
 
-A solução completa vai estar hospedada e funcional em um ambiente online.
+A solução completa vai estar hospedada e funcional em um ambiente online:
+https://desenvolvimento-integrado-de-frontend.onrender.com/
 
